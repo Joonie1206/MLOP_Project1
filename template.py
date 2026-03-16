@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 
 list_of_files=[
-    ".github/mlop_project1/.gitkeep",           # For github workflows
+    ".github/mlop_project1/.gitkeep",          # For github workflows
     "src/__init__.py",                         # Python package initialization
     "src/components/__init__.py",              # Component package initialization
     "src/components/data_ingestion.py",         
@@ -12,10 +12,10 @@ list_of_files=[
     "src/pipeline/__init__.py",                 # Pipeline package initialization
     "src/pipeline/training_pipeline.py",
     "src/pipeline/prediction_pipeline.py",
-    "src/utils/__init__.py",                     # Utility package initialization
+    "src/utils/__init__.py",                    # Utility package initialization
     "src/utils/utils.py",                       # Utility functions
     "src/logger/logging.py",                    # Logging functionality
-    "src/exception/exception",                  # Exception handling
+    "src/exception/exception.py",                  # Exception handling
     "tests/unit/__init__.py",                   # Unit tests initialization
     "tests/integration/__init__.py",            # Intigration tests intialization
     "init_setup.sh",                            # Shell script for intial setup
